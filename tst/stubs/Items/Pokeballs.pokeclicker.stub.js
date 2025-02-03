@@ -5,7 +5,7 @@ class Pokeballs
     {
         this.pokeballs =
             [
-                new Pokeball(GameConstants.Pokeball.Masterball, () => 100, 500),
+                new Pokeball(GameConstants.Pokeball.Pokeball, () => 0, 1250),
                 new Pokeball(GameConstants.Pokeball.Greatball, () => 5, 1000),
                 new Pokeball(GameConstants.Pokeball.Ultraball, () => 10, 750)
             ];
